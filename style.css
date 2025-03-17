@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    font-weight: 550;
+    font-family: 'Montserrat';
+    color: #030;
+}
+
+/*---------NAVBAR STYLES-------------*/
+
+.navbar__wrapper {
+    width: 100%;
+    backdrop-filter: blur(2px);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    padding: 22px 0;
+}
+
+.navbar__container {
+    width: 80%;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__container .navbar__logo {
+    text-decoration: none;
+    color: #030;
+    transition: .5s;
+}
+
+.navbar__container .navbar__sections a {
+    text-decoration: solid 1px underline #1a7;
+    text-underline-offset: 5px;
+    color: #030;
+    transition: .5s;
+}
+
+.navbar__container a:hover {
+    color: #1a7;
+}
+
+.active {
+    background: radial-gradient(60% 50% at 50% 50%, #1a7 0%, rgba(253, 169, 250, 0) 100%);
+}
+
+/*---------NAVBAR STYLES ENDS-------------*/
+
+/*---------HEADER STYLES-------------*/
+
+.header__wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgb(162, 247, 218) 0%, #e7fce4 80%);
+}
+
+.header__container {
+    width: 50%;
+    min-width: 50rem;
+    height: 40vh;
+    min-height: 25rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #030;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0 #030;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.header__title {
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 2px solid #030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a7;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+.content__text {
+    margin: auto 5rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.content__text a {
+    text-decoration: solid 1px underline #1a7;
+    text-underline-offset: 5px;
+    color: #030;
+}
+
+.content__text a:hover {
+    color: #1a7;
+}
+
+.me {
+    font-size: 1.7rem;
+    line-height: 1.7;
+}
+
+.ad {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
+.header__image {
+    position: absolute;
+    top: 35%;
+    right: 7%;
+}
+
+.header__image img {
+    width: 250px;
+}
+/*---------HEADER STYLES ENDS-------------*/
+
+/*---------DIVIDER STYLES-------------*/
+.divider1 {
+    width: 100%;
+    position: absolute;
+    top: 96vh;
+    display: flex;
+    padding: 0 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider__after {
+    width: 30%;
+    border: .5px solid #030;
+    height: 1px;
+}
+
+.divider__image {
+    font-size: 1.5rem;
+}
+
+.divider__before {
+    width: 30%;
+    border: .5px solid #030;
+    height: 1px;
+}
+/*---------DIVIDER 1 STYLES ENDS-------------*/
+
+/*---------PROJECTS STYLES -------------*/
+.projects__wrapper {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #e7fce4 0%, #e7fce411 90%);
+
+}
+
+.calc__container {
+    width: 80%;
+    height: 110vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.calc__image {
+    border: 2px solid #000;
+    width: 50vw;
+    min-width: 50rem;
+    height: 50vh;
+    min-height: 25rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 0 #030;
+    position: relative;
+    background-color: #1a7;
+}
+
+.calc__image img {
+    width: 20rem;
+    position: absolute;
+    bottom: 1px;
+    left: 30%;
+    border-radius: 10px 10px 0px 0px;
+    border-top: 20px solid #030;
+    border-left: 20px solid #030;
+    border-right: 20px solid #030;
+}
+
+.calc__description {
+    width: 50vw;
+    min-width: 50rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.description__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+.description {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 1.3rem;
+}
+
+.calc__btn {
+    width: 13rem;
+    border: 1px solid #000;
+    padding: 7px;
+    position: relative;
+    bottom: -30px;
+    left: 0;
+    border-radius: 30px;
+    background-color: #1a7;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    transition: .5s;
+}
+
+.calc__btn:hover {
+    box-shadow: 5px 3px 0 #030;
+    transition: .5s;
+}
+
+.calc__btn a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #030;    
+    text-decoration: none;
+}
+/*---------PROJECTS STYLES ENDS -------------*/
+/*--------------DIVIDER 2 STYLES-----------------*/
+.divider2 {
+    width: 99vw;
+    position: absolute;
+    bottom: -5vh;
+    display: flex;
+    padding: 0 5rem;
+    align-items: center;
+    justify-content: center;
+}
+/*--------------DIVIDER 2 STYLES ENDS-----------------*/
+/*--------------CONTACT AND COPYRIGTH STYLES-----------------*/
+.contact__wrapper {
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.contact__container {
+    width: 50vw;
+    min-width: 50rem;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact {
+    display: flex;
+    gap: .5rem;
+    font-size: 1rem;
+}
+
+.contact a {
+    color: #030;
+    text-decoration: solid 1px underline #1a7;
+    text-underline-offset: 3px;
+    transition: .5s;
+}
+
+.contact a:hover {
+    color: #1a7;
+    transition: .5s;
+}
+
+.contact__intro {
+    font-size: 1.3rem;
+}
+
+.copyrigth {
+    font-size: .7rem;
+}
+/*--------------CONTACT AND COPYRIGTH STYLES ENDS-----------------*/
+
+
