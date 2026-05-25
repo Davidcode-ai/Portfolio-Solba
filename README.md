@@ -41,4 +41,4 @@ Si buscas un perfil técnico, resolutivo y que aplique metodologías modernas de
 
 * ✉️ **Email:** davidmv030306@gmail.com
 * 🌐 **Web:** [webdavid.es](https://www.webdavid.es)
-* 💼 **LinkedIn:** [Perfil de LinkedIn]
+* 💼 **LinkedIn:** (https://www.linkedin.com/in/david-muñoz-valdés-8b26932b8/)
